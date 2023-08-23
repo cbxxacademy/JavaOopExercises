@@ -1,11 +1,14 @@
 # Instructions
 
-1. Clone this repository and create your own. Each time you finish an exercise, perform a commit with a relevant commit description.
-2. Complete each exercise in the given order. You will need to:
-- Create new classes. Each class is in its own file (see Person.java)
-- Create methods and attributes
-- Use inheritance
-- Manipulate data and show results with `System.out.println()` -- The (Main) part of each exercises needs to be done in the main method of the Main class.
+1. Clone this repository and create your own. 
+2. Open the project folder in VS Code.
+	- Install the 'Extension Pack for Java' extension
+	- If you're getting an error about needing to install the JDK and you have already installed it, it means that you need to set your environment variables properly.
+3. Complete each exercise in the given order. Each time you finish an exercise, perform a commit with a relevant commit description. The exercises will ask you to:
+	- Create new classes. Each class is in its own file (see Person.java)
+	- Create methods and attributes
+	- Use inheritance
+	- Manipulate data and show results with `System.out.println()` -- The (Main) part of each exercises needs to be done in the main method of the Main class.
 
 # Exercise 1: Creating a Bank Account
 
