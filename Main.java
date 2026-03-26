@@ -1,0 +1,83 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("======= Java OOP Exercises Started =======");
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 0 ===============");
+        // Exercise 0: Using the Example Person Class
+
+        // Initialization a new Person object
+        Person person = new Person("Simon", 24);
+        
+        // Example that prints "Hello, my name is [name]."
+        System.out.println("Hello, my name is " + person.getName() + ".");
+        
+        // Complete the code to print "I'm [age] years old."
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 1 ===============");
+        // Exercise 1: Creating a Bank Account
+        // Create a BankAccount instance
+        // Perform deposit and withdrawal operations.
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 2 ===============");
+        // Exercise 2: Creating a Savings Account
+        // Create a SavingsAccount instance
+        // Perform deposit operations with interest
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 3 ===============");
+        // Exercise 3: Creating a Checking Account
+        // Create a CheckingAccount instance
+        // Perform withdrawal operations with overdraft
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 4 ===============");
+        // Exercise 4: Managing Customer's Accounts
+        // Create a BankCustomer instance
+        // Add multiple accounts and display total balance
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 5 ===============");
+        // Exercise 5: Transaction History
+        // Add transactions to accounts and retrieve history
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 6 ===============");
+        // Exercise 6: Generate Banking Report
+        // Generate and display a customer's banking report
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 7 ===============");
+        // Exercise 7: Update Interest Rates
+        // Update the interest rate and observe calculations
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("=============== Exercise 8 ===============");
+        // Exercise 8: Override Withdrawal Method
+        // Demonstrate overridden withdrawal method
+        System.out.println("TODO");
+        
+        
+        System.out.println("");
+        System.out.println("====== Java OOP Exercises Completed ======");
+        // Make sure all exercises are completed and print results
+    }
+}
