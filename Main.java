@@ -43,7 +43,10 @@ public class Main {
         // Exercise 3: Creating a Checking Account
         // Create a CheckingAccount instance
         // Perform withdrawal operations with overdraft
-        System.out.println("TODO");
+        CheckingAccount checking = new CheckingAccount("11111", 300, 150);
+        checking.withdraw(400); // within overdraft limit (300 + 150 = 450)
+        System.out.println("Checking Account Balance: " + checking.getBalance());
+        checking.withdraw(200); // exceeds overdraft limit, should be denied
         
         
         System.out.println("");
