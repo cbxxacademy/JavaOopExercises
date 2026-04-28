@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Hello, my name is " + person.getName() + ".");
         
         // Complete the code to print "I'm [age] years old."
-        System.out.println("TODO");
+        System.out.println("I'm " + person.getAge() + " years old.");
         
         
         System.out.println("");
@@ -95,7 +95,10 @@ public class Main {
         System.out.println("=============== Exercise 8 ===============");
         // Exercise 8: Override Withdrawal Method
         // Demonstrate overridden withdrawal method
-        System.out.println("TODO");
+        CheckingAccount overdraftAccount = new CheckingAccount("99999", 200, 100);
+        System.out.println("Balance: " + overdraftAccount.getBalance() + ", Overdraft Limit: " + overdraftAccount.getOverdraftLimit());
+        overdraftAccount.withdraw(250); // allowed: within balance + overdraft (200 + 100 = 300)
+        overdraftAccount.withdraw(200); // denied: exceeds balance + overdraft (-50 + 100 = 50 remaining)
         
         
         System.out.println("");
