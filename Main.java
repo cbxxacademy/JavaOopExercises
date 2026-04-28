@@ -66,7 +66,11 @@ public class Main {
         System.out.println("=============== Exercise 5 ===============");
         // Exercise 5: Transaction History
         // Add transactions to accounts and retrieve history
-        System.out.println("TODO");
+        BankAccount historyAccount = new BankAccount("55555", 1000);
+        historyAccount.deposit(300);
+        historyAccount.withdraw(150);
+        historyAccount.deposit(200);
+        historyAccount.getTransactionHistory();
         
         
         System.out.println("");
