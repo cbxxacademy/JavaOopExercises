@@ -21,7 +21,11 @@ public class Main {
         // Exercise 1: Creating a Bank Account
         // Create a BankAccount instance
         // Perform deposit and withdrawal operations.
-        System.out.println("TODO");
+
+        BankAccount account = new BankAccount("12345", 1000);
+        account.deposit(500);
+        account.withdraw(200);
+        System.out.println("Account Balance: " + account.getBalance());
         
         
         System.out.println("");
