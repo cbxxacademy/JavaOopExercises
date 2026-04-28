@@ -33,7 +33,9 @@ public class Main {
         // Exercise 2: Creating a Savings Account
         // Create a SavingsAccount instance
         // Perform deposit operations with interest
-        System.out.println("TODO");
+        SavingsAccount savings = new SavingsAccount("67890", 500, 0.05);
+        savings.deposit(200);
+        System.out.println("Savings Account Balance: " + savings.getBalance());
         
         
         System.out.println("");
