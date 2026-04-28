@@ -77,7 +77,7 @@ public class Main {
         System.out.println("=============== Exercise 6 ===============");
         // Exercise 6: Generate Banking Report
         // Generate and display a customer's banking report
-        System.out.println("TODO");
+        customer.generateReport();
         
         
         System.out.println("");

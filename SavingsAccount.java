@@ -20,4 +20,9 @@ public class SavingsAccount extends BankAccount {
             System.out.println("Invalid deposit amount.");
         }
     }
+
+    @Override
+    public String toString() {
+        return "SavingsAccount [Account: " + getAccountNumber() + ", Balance: " + getBalance() + ", Interest Rate: " + interestRate + "]";
+    }
 }

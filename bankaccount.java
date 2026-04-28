@@ -50,5 +50,10 @@ public class BankAccount {
             System.out.println("Invalid withdrawal amount or insufficient funds.");  
         }  
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount [Account: " + getAccountNumber() + ", Balance: " + balance + "]";
+    }
     
 }

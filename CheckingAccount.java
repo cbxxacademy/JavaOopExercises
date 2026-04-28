@@ -22,4 +22,9 @@ public class CheckingAccount extends BankAccount {
             System.out.println("Withdrawal exceeds overdraft limit. Transaction denied.");
         }
     }
+
+    @Override
+    public String toString() {
+        return "CheckingAccount [Account: " + getAccountNumber() + ", Balance: " + getBalance() + ", Overdraft Limit: " + overdraftLimit + "]";
+    }
 }

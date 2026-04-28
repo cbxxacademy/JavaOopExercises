@@ -29,4 +29,12 @@ public class BankCustomer {
         }
         return total;
     }
+
+    public void generateReport() {
+        System.out.println("=== Banking Report for " + name + " ===");
+        for (BankAccount account : accounts) {
+            System.out.println(account.toString());
+        }
+        System.out.println("Total Balance: " + totalBalance());
+    }
 }
