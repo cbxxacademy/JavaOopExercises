@@ -10,6 +10,11 @@ public class SavingsAccount extends BankAccount {
         return interestRate;
     }
 
+    public void updateInterestRate(double newRate) {
+        this.interestRate = newRate;
+        System.out.println("Interest rate updated to: " + newRate);
+    }
+
     @Override
     public void deposit(double amount) {
         if (amount > 0) {

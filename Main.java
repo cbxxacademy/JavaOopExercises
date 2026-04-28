@@ -84,7 +84,11 @@ public class Main {
         System.out.println("=============== Exercise 7 ===============");
         // Exercise 7: Update Interest Rates
         // Update the interest rate and observe calculations
-        System.out.println("TODO");
+        SavingsAccount rateAccount = new SavingsAccount("66666", 1000, 0.03);
+        rateAccount.deposit(500);
+        rateAccount.updateInterestRate(0.10);
+        rateAccount.deposit(500);
+        System.out.println("Savings Account Balance after rate change: " + rateAccount.getBalance());
         
         
         System.out.println("");
